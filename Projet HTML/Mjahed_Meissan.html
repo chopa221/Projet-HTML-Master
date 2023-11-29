@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="author" name="meissan">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="images/home/logo1.png" rel="shortcut icon">
+	<title>Bienvenue chez Milano</title>
+</head>
+<body class="homeMe">
+	<header class="headd">
+		<nav class="menu">
+			<div class="logo">
+				<!--return to home page-->
+				<a href="index.html"><img alt="logo milano" src="images/home/logo1.png"></a> <!--image created by Ilyass Aboukacem-->
+			</div>
+			<ul>
+				<li>
+					<a href="mohamed_elcheikh.html">Menu</a>
+				</li>
+				<li>
+					<a href="Baddou_Amine.html">Notre histoire</a>
+				</li>
+				<li>
+					<a href="Mjahed_Meissan.html">Evenement</a>
+				</li>
+				<li>
+					<a href="Aboukacem_Ilyass.html">Contact et Horaire</a>
+				</li>
+				<li>
+					<a href="Bidi_Khalil.html">Livraison</a>
+				</li>
+				<li>
+					<a href="yasin_raza.html">Rejoignez notre équipe</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="entete_event">
+		<h1>Nos évènements, pour votre plus grand plaisir !</h1><img alt="Evenement" src="images/meissan/en_tete.jpg">
+		<aside class="aside-event">
+			<!--header of this page-->
+			<ul>
+				<li>
+					<a href="#degustations_of_coffe">Soirée dégustation de café</a>
+				</li>
+				<li>
+					<a href="#music_evening">Soirée musical</a>
+				</li>
+				<li>
+					<a href="#family_journey">Journée familiale</a>
+				</li>
+				<li>
+					<a href="#show_cooking">showcooking</a>
+				</li>
+				<li>
+					<a href="#calendar">Calendrier des évènement</a>
+				</li>
+			</ul>
+		</aside>
+	</div><!--the different event that the restaurant is planning-->
+	<section class="content-event">
+		<div class="coffee">
+			<img alt="coffee" id="degustations_of_coffe" src="images/meissan/coffee.jpg">
+			<div class="text-coffee">
+				<h3>Vendredi 1er décembre, nous organisons une soirée dégustation de café</h3>
+				<p>Nous vous attendons ici, au restaurant Milano, pour que vous puissez apprécier les différentes sortes de café que nous avons à vous proposer! Il y en aura pour tous les goûts, nous sommes convaincus que vous allez en aimer la plupart !</p>
+			</div>
+		</div>
+		<div class="music">
+			<img alt="music_live" id="music_evening" src="images/meissan/musicien.jpg">
+			<div class="music-text">
+				<h3>Soirée musical exceptionnelle au restaurant Milano</h3><br>
+				<p>Nous sommes ravis de vous annoncer qu'une soirée musicale aura lieu dans notre restaurant le 8 décembre. Préparez-vous à une nuit inoubliable de délices culinaires et de mélodies envoûtantes.</p>
+			</div>
+		</div>
+		<div class="family">
+			<img alt="Journée familiale" id="family_journey" src="images/meissan/family-day.jpg">
+			<div class="family-text">
+				<h3>Journée familiale au restaurant Milano</h3>
+				<p>Nous sommes heureux de vous inviter à notre Journée Familiale spéciale ! Venez passer une journée remplie de joie et de rires avec vos proches. Nous avons prévu des activités amusantes pour les enfants et des plats délicieux pour toute la famille.</p>
+			</div>
+			<div class="showcooking">
+				<img alt="showcooking" id="show_cooking" src="images/meissan/showcooking.jpg">
+				<div class="showcooking-text">
+					<h3>Soirée Showcooking</h3>
+					<p>Préparez-vous à être émerveillé par notre journée Showcooking ! Venez découvrir les secrets de notre cuisine et regardez nos chefs talentueux préparer vos plats préférés devant vos yeux</p>
+				</div>
+			</div><!--event calendar that tell you when there's an event-->
+			<div class="event_table">
+				<div class="titre-table-event">
+					<h2 id="calendar">Calendrier des évènements</h2>
+				</div>
+				<table id="event">
+					<tr>
+						<th>Date</th>
+						<th>Évènement</th>
+					</tr>
+					<tr>
+						<td>01/12/2023</td>
+						<td>Soirée de dégustation café</td>
+					</tr>
+					<tr>
+						<td>08/12/2023</td>
+						<td>Soirée musique live</td>
+					</tr>
+					<tr>
+						<td>15/12/2023</td>
+						<td>Journée familliale</td>
+					</tr>
+					<tr>
+						<td>22/12/2023</td>
+						<td>Showcooking</td>
+					</tr>
+				</table>
+				<div class="text-table-event">
+					<p>La Liste des évènement est susceptible de changer ou des évènements peuvent être ajoutés</p>
+				</div>
+			</div>
+			<nav class="en-tete-form">
+				<h1 id="avis-titre">Inscription à la newsletter</h1>
+			</nav>
+			<h4 id="titre-form">Inscrivez-vous pour être au courant de tous nos évènements en avance !</h4>
+		</div><!--Notice form to send-->
+		<div class="question">
+			<form action="#" enctype="multipart/form-data" method="post">
+				<label for="nom">Nom :</label> <input id="nom" name="nom" required="" type="text"> <label for="prenom">Prénom :</label> <input id="prenom" name="prenom" required="" type="text"> <label for="email">E-mail :</label> <input id="email" name="email" required="" type="email"> <label for="message">Question :</label> 
+				<textarea id="message" name="message" required="" rows="4"></textarea> <button type="submit">Envoyer</button>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<p>&copy; Raza Yasin, Mjahed Meissan , El Cheikh Mohamed , Bidi Khalil , Baddou Amine , Aboukacem Ilyass</p>
+	</footer>
+</body>
+</html>

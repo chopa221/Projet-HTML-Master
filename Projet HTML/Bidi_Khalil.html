@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Bidi Khalil" name="author">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/home/logo1.png">
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<title>Milano Livraison</title>
+</head>
+<body class="homek">
+	<header class="headd">
+		<nav class="menu">
+			<div class="logo">
+				<!--return to home page-->
+				<a href="index.html"><img alt="logo milano" src="images/home/logo1.png"></a> <!--image created by Ilyass Aboukacem-->
+			</div>
+			<ul>
+				<li>
+					<a href="mohamed_elcheikh.html">Menu</a>
+				</li>
+				<li>
+					<a href="Baddou_Amine.html">Notre histoire</a>
+				</li>
+				<li>
+					<a href="Mjahed_Meissan.html">Evenement</a>
+				</li>
+				<li>
+					<a href="Aboukacem_Ilyass.html">Contact et Horaire</a>
+				</li>
+				<li>
+					<a href="Bidi_Khalil.html">Livraison</a>
+				</li>
+				<li>
+					<a href="yasin_raza.html">Rejoignez notre équipe</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<!---Title-->
+		<div class="intro">
+			<h1>Milano Livraison</h1>
+			<hr>
+		</div>
+
+		<div class = "boite-formulaire">
+			<!--form to order food-->
+			<form method="post">
+				<h2>Votre commande</h2>
+				<hr>
+				<div class="contenu">
+					<div class="input">
+						<ul>Nom :</ul> 
+						<input id="nom" name="nom" required="" type="text"> 
+
+						<ul>Prénom :</ul>
+						<input id="prenom" name="prenom" required="" type="text">
+
+						<ul>Numéro de téléphone :</ul>
+						<input id="numéro_téléphone" name="numéro de téléphone" required="" type="tel">
+					</div>
+					<span class="menu-titre">Menu :</span>
+					<div class="categorie-courriture">
+							
+							<select name="liste_Entrées" id="entrées">
+								<option value="">--Entrées--</option>
+								<option value="Pas d'entrées">Pas d'entrées</option>
+								<option value="Salade César">Salade César</option>
+								<option value="Salade Tuna">Salade Tuna</option>
+								<option value="Salade Vegan">Salade Vegan</option>
+								<option value="Polli Fritti">Polli Fritti</option>
+								<option value="Tempura Calamar">Tempura Calamar</option>
+							</select>
+
+							<select name="liste_Plats" id="plats">
+								<option value="">--Plats--</option>
+								<option value="Pizza Margherita">Pizza Margherita</option>
+								<option value="Pizza 4 Fromaggi Pepperoni">Pizza 4 Fromaggi Pepperoni</option>
+								<option value="Pizza Romana">Pizza Romana</option>
+								<option value="Lasagna Classica">Lasagna Classica</option>
+								<option value="Lasagna Vegetariana">Lasagna Vegetariana</option>
+								<option value="Spaghetti Bolognaise">Spaghetti Bolognaise</option>
+								<option value="Pene Verdi">Pene Verdi</option>
+								<option value="Pene Classica">Pene Classica</option>
+							</select>
+
+							<select name="liste_Desserts" id="desserts">
+								<option value="">--Desserts--</option>
+								<option value="Pas de desserts">Pas de desserts</option>
+								<option value="Mille-feuille aux fruits rouges">Mille-feuille aux fruits rouges</option>
+								<option value="Tiramisu Cremoso Italiano">Tiramisu Cremoso Italiano</option>
+								<option value="Glace avec 5 boules gout vanille">Glace avec 5 boules gout vanille</option>
+								<option value="Glace avec 5 boules gout chocolat">Glace avec 5 boules gout chocolat</option>
+								<option value="Glace avec 5 boules gout fraise">Glace avec 5 boules gout fraise</option>
+								<option value="Moelleux au chocolat">Moelleux au chocolat</option>
+					     	</select>
+
+							<select name="Boissons" id="boissons">
+								<option value="">--Boissons--</option>
+								<option value="Pas de boisson">Pas de boisson</option>
+								<option value="Coca-Cola">Coca-Cola</option>
+								<option value="Fanta">Fanta</option>
+								<option value="Sprite">Sprite</option>
+								<option value="Mojito traditionelle(sans alcool)">Mojito traditionelle</option>
+								<option value="Jus de fruits rouges">Jus de fruits rouges</option>
+								<option value="Jus d'orange">Jus d'orange</option>
+								<option value="Café Milano">Café Milano</option>
+								<option value="Thé à la menthe">Thé à la menthe</option>
+							</select>
+				    </div>
+					<p>Prix de la livraison : 3.90 €</p>
+
+					
+				</div>
+				
+				<div class="bouton-envoyer">
+					<button>Envoyer</button>
+				</div>
+
+				<div class="lien-menu">
+					<a href="mohamed_elcheikh.html">En savoir plus sur nos menus</a>
+				</div>
+
+			</form>
+		</div>
+
+		<div class="boite-tableau">
+			<h2>Horaires de livraison</h2>
+			<hr>
+			<!--working hours-->
+			<table class="style-tableau">
+				<tbody>
+					<tr>
+						<td>Lundi</td>
+						<td>12:30 - 19:00</td>
+					</tr>
+					<tr>
+						<td>Mardi</td>
+						<td>12:30 - 19:00</td>
+					</tr>
+					<tr>
+						<td>Mercredi</td>
+						<td>12:30 - 19:00</td>
+					</tr>
+					<tr>
+						<td>Jeudi</td>
+						<td>12:30 - 19:00</td>
+					</tr>
+					<tr>
+						<td>Vendredi</td>
+						<td>fermé</td>
+					</tr>
+					<tr>
+						<td>Samedi</td>
+						<td>12:30 - 23:00</td>
+					</tr>
+					<tr>
+						<td>Dimanche</td>
+						<td>12:30 - 23:00</td>
+					</tr>
+				</tbody>	
+			</table>
+		</div>
+
+
+
+		
+	</main>
+
+	<!--Common footer with teams names-->
+	<footer class="footerK">
+		<p>&copy; Raza Yasin, Mjahed Meïssan , El Cheikh Mohamed , Bidi Khalil , Baddou Amine , Aboukacem Ilyass</p>
+	</footer>
+	
+</body>
+</html>
