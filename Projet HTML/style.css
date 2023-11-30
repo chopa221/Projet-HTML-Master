@@ -348,7 +348,6 @@ section.accueil {
     color: white;
     font-size: 24px;
     text-shadow: 0 0 3px #000000, 0 0 5px #000000;
-	rgb(0, 0, 0)
 }
 
 
@@ -626,7 +625,7 @@ section.accueil {
     margin-bottom: -85px;
 }
 
-/********************************************Meïssan Css************************************/
+/********************************************Meissan's Css************************************/
 
 body.homeMe {
 	margin: auto;
@@ -660,6 +659,11 @@ body.homeMe {
 	height: 70px;
 	object-fit: cover;
 }
+
+#entete-meisan{
+	filter: grayscale(70%) brightness(30%);
+}
+
 .aside-event {
 	text-decoration-color: #4CAF50;
 }
@@ -864,7 +868,7 @@ body.homeMe {
 #event td {
 	background-color: white;
 }
-/************************************************************************************************/
+/************************************************KHALIL'S CSS************************************************/
 .homek{
     background: url(images/khalil/fond.jpg) center/cover;
     min-height: 100vh;
@@ -1006,16 +1010,11 @@ footer p {
     text-align: center;
     color: #b39c70;
 }
-#horaires{
-   
-    width: 1000px; 
-    height: 1500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-     
-}
 
+
+#horaires{
+	padding-left: 160px;
+}
 .titre-horaire{
     font-size: 100px;
     text-align: center;
@@ -1029,8 +1028,144 @@ footer p {
 
 
 .mapss{
-
+	
 	padding-left: 100px;
 }
 
 
+/*********************************************AMINE CSS*************************/
+
+
+
+#titre-histoire{
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 0 0 0 black;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 3rem;
+    box-shadow: 0px 0px 10px 0px black; 
+    
+}
+
+.textA{
+    font-size: 30px;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 50px auto;
+
+}
+
+
+#menus ul a{
+    color: rgb(60, 0, 255);
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: auto;
+
+}
+
+#titre-table{
+    text-align: center ;
+    color: rgb(0, 0, 0);
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 2rem;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.recapitulatif{
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+.recapitulatif th, .recapitulatif td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.grid h3{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 60% 70%;
+    background-color: rgb(245, 222, 179);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 50px auto;
+    
+    
+    
+}
+
+.grid-container textarea{
+    resize: none;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 5px auto;
+}
+
+.grid-container input{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.grid-container h4{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+
+}
+
+
+#btn-submit{
+    grid-area: auto;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.2s;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px auto;
+}
+
+#btn-submit:hover{
+    background-color: blue;
+    color: white;
+}
+
+/****************end*******************/
